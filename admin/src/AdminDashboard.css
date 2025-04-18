@@ -1,0 +1,46 @@
+.admin-dashboard {
+  max-width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.dashboard-logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 200px;
+}
+
+h2 {
+  text-align: center;
+  color: black; 
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border: double;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid gold;
+}
+
+th {
+  background-color: gold; 
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+td:hover {
+  background-color: #e0e0e0; 
+  cursor: pointer;
+}
